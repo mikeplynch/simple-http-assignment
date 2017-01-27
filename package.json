@@ -1,0 +1,22 @@
+{
+    "name": "simple-http-assignment",
+    "version": "1.0.0",
+    "description": "simple http server assignment",
+    "main": "./src/server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests complete\""
+    },
+    "repository": {
+        "type": "git",
+        "url": " "
+    },
+    "author": "Michael Lynch",
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "eslint": "^3.14.1",
+        "eslint-config-airbnb": "^14.0.0",
+        "eslint-plugin-import": "^2.2.0"
+    }
+}
